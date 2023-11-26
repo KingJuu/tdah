@@ -1,0 +1,299 @@
+*{
+    transition: all linear 0.2s ;
+}
+
+
+
+.section-tdah{
+    background-color: #fff;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+
+.section-tdah-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.section-tdah-right{
+    display: flex;
+    justify-content: end;
+}
+
+
+.section-aprendizado{
+    background-color: #40799e;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    color: #fff;
+    padding: 2% 5%;
+}
+
+.section-aprendizado>p{
+    font-weight: normal;
+    text-transform:none;
+    
+}
+.aprendizado-items{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.aprendizado-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 2em 0em 0em;
+}
+.aprendizado-item > img{
+    width: 20%;
+    margin-bottom: 1.5em;
+}
+
+.btn-tdah{
+    background-color: #40799e;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 1em 0em;
+}
+
+.btn-tdah:hover{
+    
+    transition: 0.1s;
+    background-color: #193141;
+    color: #fff;
+}
+
+
+
+/* proposta */
+
+
+.p-titulo{
+    margin: 5em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-titulo > h1 {
+    font-weight: bold;
+}
+
+.p-titulo > h3 > strong{
+    color: #40799e;
+}
+
+.section-tdah-left-p{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 1em ;
+}
+
+.principios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.principio{
+    background-color: #2d5672da;
+    color:#fff;
+    margin:1em;
+    padding: 1em 0em 1em 1em;
+    border-radius: 0.5em;
+    border: solid 0.3em #40799e;
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 25px),calc(100% - 25px) 100%,0 100%);
+}
+
+.principio > h3{
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+
+.p1 >h3 {
+    color:#88ecd3ce
+}
+
+.p1:hover{
+    border: solid 0.3em #00b98bce;
+}
+
+.p2 >h3 {
+    color:#f8db7c;
+}
+
+.p2:hover{
+    border: solid 0.3em #ffc404ce;
+}
+
+.p3 >h3 {
+    color:#fdaed6;
+}
+
+.p3:hover{
+    border: solid 0.3em #f07bb5ce;
+}
+
+.section-funcionalidades{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:3em
+}
+
+.section-funcionalidades > h2{
+    text-transform: uppercase;
+}
+
+.funcoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em 0em;
+    
+}
+
+.funcao{
+    display:flex;
+    align-items: center;
+    background-color: #64646434;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+
+.funcao-right{
+    display:flex;
+    flex-direction: column;
+    margin-left:0.2em;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.funcao-right > strong{
+    text-transform: uppercase;
+}
+
+p{
+    margin:0;
+}
+
+.f1{
+    border-right: #f07bb5ce solid 0.5em;
+}
+
+.f2{
+    border-right: #ffc404ce solid 0.5em;
+}
+.f3{
+    border-right: #00b98bce solid 0.5em;
+}
+.f4{
+    border-right: #88d100ce solid 0.5em;
+}
+
+.prototipo {
+    background-color: #40789e7a;
+    margin: 0;
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.prototipo-right{
+    padding: 1em;
+}
+.link-prototipo{
+    background-color: #d9d9d9;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    border: 0em;
+    border-radius: 0.5em;
+}
+
+.prototipo > img{
+    width: 15%;
+    margin: 0em 2em;
+} 
+
+
+/* apps */
+
+.intro-app{
+    display:flex;
+    justify-content: space-around;
+    padding: 5em;
+}
+
+.intro-app > img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-app-right{
+    display:flex;
+    flex-direction: column;
+    padding: 0em 2em;
+}
+
+.intro-app-right > strong {
+    color: #40799e;
+    text-transform: uppercase;
+}
+
+.intro-app-right > h1 {
+    font-size: 3em;
+}
+
+.baixar{
+    width: 60%;
+}
+
+.beneficios{
+    background-color: #193141;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em;
+}
+
+.beneficios >h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.beneficios-lista{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficio{
+    background-color: #2d5672da;
+    border: solid 0.3em #40799e;
+    border-radius: 0.5em;
+    color: #fff;
+    margin: 1em;
+    padding: 1em;
+}
+
+.beneficio > h3{
+    font-size: 1em;
+}
+
+.rodape{
+    padding: 3em 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
